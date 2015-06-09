@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 화면 애니메이션 -->
+    <integer name="activity_duration">500</integer>
+
+</resources>

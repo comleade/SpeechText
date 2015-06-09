@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    >
+    <!-- 로고 -->
+      <ImageView 
+          android:layout_width="match_parent"
+          android:layout_height="300dp"
+	      android:src="@mipmap/ic_launcher"
+          android:layout_marginTop="10dp"
+          android:scaleType="fitCenter"
+          android:layout_gravity="bottom"
+          />
+
+       <!-- 앱 버젼표시 -->
+      <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|top"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_large"
+                android:textStyle="italic|bold"
+                android:layout_marginTop="20dp"
+                android:text="@string/title_activity_gcmsample"
+		        android:background="@android:color/transparent"
+                />
+      
+      	<!-- 레버텍 로고 -->
+          <ImageView 
+              android:id="@+id/introscreen"
+          	  android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+
+              android:scaleType="center"
+              android:layout_gravity="center_horizontal|center_vertical" 
+              android:visibility="gone"
+              />
+    <!--android:src="@drawable/reveteclogo"-->
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">문자로 통화</string>
+    <string name="title_activity_gcmsample">문자로 통화 Ver 0.1</string>
+    <string name="title_section1">Menu 1</string>
+    <string name="title_section2">Menu 2</string>
+    <string name="title_section3">Menu 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">환경설정</string>
+</resources>
